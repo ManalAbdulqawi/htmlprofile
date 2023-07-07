@@ -9,7 +9,7 @@ height: 500px;
 border-radius: 50px;}
 
 /* unvisited link */
-a{font-size:larger;}
+a{font-size:medium;}
 a:link {
     color: red;
   }
@@ -81,7 +81,8 @@ a:link {
 .grid-container > div {
   background-color:mistyrose;
   
-  padding: 20px 20px 20px 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
   
 }
 img{width:"50%" }
@@ -96,8 +97,22 @@ img{width:"50%" }
 
 .center1 {
     margin: auto;
-    width: 50%;
-    border: 3px solid green;
+    width: 50px;
+    border: 1px solid green;
     padding: 10px;
     text-align: center;
+  }
+
+  .div-padding{
+    background-color: rgb(15, 175, 175);
+    width: 50%;
+    text-align: center; 
+     padding-top: 10px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        margin-bottom: 40px;
+  }
+  .div-wrap-pandding{
+
   }
